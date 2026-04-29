@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/migration/v1_create_users_table.yaml
+  - include:
+      file: db/migration/v2_create_cards_table.yaml
+  - include:
+      file: db/migration/v3_create_transactions_table.yaml
+  - include:
+      file: db/migration/v4_add_operation_type_column.yaml
